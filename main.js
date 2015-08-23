@@ -1,53 +1,3 @@
-<head>
-<style>
-	* {
-		font-size: 32px;
-		font-family: monospace;
-	}
-	h1 {
-		font-size: 80px;
-		color: #07F;
-	}
-	h2 { /* operation */
-		font-style: bold;
-		font-size: 48px;
-		color: #70F;
-	}
-	div {
-		display: block;
-		margin: 0 auto;
-		text-align: center;
-	}
-	#output {
-		font-style: bold;
-	}
-	.wrong {
-		color: red;
-
-	}
-	.right {
-		color: green;
-
-	}
-
-</style>
-<body>
-<div>
-	<h1>0xF</h1>
-	<div id="output"></div><br>
-	<div id="txt">0000</div>
-	<hr>
-	<label for="bin">Binary</label>:
-	<input type="text" maxlength="4" size="4" id="bin" value="0000"><br>
-	<label for="dec">Decimal</label>:
-	<input type="text" maxlength="2" size="2" id="dec" autofocus><br>
-	<label for="hex">Hexadecimal</label>:
-	<input type="text" maxlength="3" size="3" id="hex" value="0x0"><br>
-	<br>
-	<button id="submit">Confirm</button>
-</div>
-<script>
-
 onload = main; // entry point
 
 function parse_hex (nb)
@@ -270,4 +220,3 @@ function main ()
 	set_txt();
 }
 
-</script>

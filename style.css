@@ -1,0 +1,29 @@
+* {
+	font-size: 32px;
+	font-family: monospace;
+}
+h1 {
+	font-size: 80px;
+	color: #07F;
+}
+h2 { /* operation */
+	font-style: bold;
+	font-size: 48px;
+	color: #70F;
+}
+div {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+#output {
+	font-style: bold;
+}
+.wrong {
+	color: red;
+
+}
+.right {
+	color: green;
+
+}
